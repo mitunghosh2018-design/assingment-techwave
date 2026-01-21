@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.commonpadding{
+    padding: 30px 8%;
+}
+body{
+    background-color: #1A0B2E;
+    font-family: "Inter", sans-serif;
+}
+.textHead{
+    color: #FFFFFF;
+}
+
+.commonbtn{
+    background: linear-gradient( 21deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    width: 185px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transform-origin: right center;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+.commonbtn:hover{
+    transform: scaleX(1.25);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+hr{
+    border: none;
+    height: .07px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+/* header end */
+/* nav  */
+
+.navlogo{
+    text-decoration: none;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.logocolor{
+    background: linear-gradient( 45deg, #F7E93F 8%, #FB09B4 51%, #9100F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navdiv ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    margin-top: 15px;
+}
+.navdiv ul li{
+    list-style: none;
+
+}
+.navdiv ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 500;
+}
+#burger{
+    display: none;
+}
+
+.menuburger{
+    font-size: 25px;
+}
+/* nav end */
