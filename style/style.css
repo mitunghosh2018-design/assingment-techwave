@@ -234,4 +234,192 @@ hr{
     margin-top: 10px;
 }
 /* poadcast end */
+/* traffic */
+
+.traffic{
+    display:flex;
+    gap:65px;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-top: 80px;
+}
+.listeners{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-width:120px;
+}
+
+.totalnumber{
+    font-size:3rem;
+    font-weight:900;
+    color: #00FF88;
+    line-height:1;
+}
+
+.users{
+    margin-top:10px;
+    font-size:16px;
+    font-weight: 400;
+    color:#FFFFFF;
+}
+/* traffic end */
+/* techwave */
+.diffcolor{
+    background-color: #230E3D;
+    color: #FFFFFF;
+}
+.techweb{
+    align-items: center;
+    text-align: center;
+    margin: 5rem 0rem 2.5rem 0rem;
+}
+.techtitle{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.techgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 225px);
+    gap: 30px;
+    margin-bottom: 100px;
+
+}
+.techheadphone{
+    grid-row: span 2;
+    background-color:rgba(53, 17, 101, 0.4);
+    padding: 150px 40px 100px 40px;
+    border-radius: 40px;
+}
+.techdivice{
+    grid-column: span 2;
+    background-color:rgba(53, 17, 101, 0.4);
+    padding: 40px 40px 40px 40px;
+    border-radius: 40px;
+}
+.techresource{
+    background-color:rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    border-radius: 40px;
+}
+.techheading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.techpara{
+    margin-top: 0.625rem;
+}
+.techdes{
+    font-size: .80rem;
+    font-weight: 400;
+}
+/* techwave end */
+/* featured section start */
+.featureddiv{
+    font-size: 3rem;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 50px 0px;
+}
+.featuredcard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    color: #FFFFFF;
+}
+.featuredtitle{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.featuredcarddiv{
+    border-radius: 15px;
+    overflow: hidden;
+    background-color:rgba(53, 17, 101, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+.iframecard{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.iframecard iframe{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
+.feacard{
+    margin-bottom: 2px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.videotitle{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.videodescription{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 25px;
+}
+.clock{
+    padding: 5px 5px 0px 25px;
+    margin: 11px 5px 20px 0px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.clocktime{
+    color: #00FF88;
+}
+/* featured end */
+.host{
+    margin-top: 50px;
+}
+.hostcontainer{
+    color: #FFFFFF;
+}
+.hosttitle{
+    align-items: center;
+    text-align: center;
+}
+.hostbio{
+    background-color:rgba(53, 17, 101, 0.4);
+    display: flex;
+    gap: 1.75rem;
+    padding: 2.75rem;
+    border-radius: 2.75rem;
+    margin-top: 40px;
+}
+.hostalex{
+    padding: 20px 20px 10px 0px;
+}
+.hostname{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.hostdescription{
+    margin-top: 15px;
+    padding: 5px 10px 5px 0px;
+    text-align: justify;
+    font-size: .80rem;
+    font-weight: 400;
+}
+
+.hostsocial{
+    display: flex;
+    gap: 8px;
+    margin-top: 18px;
+}
+/* host end */
 
