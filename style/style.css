@@ -84,3 +84,154 @@ hr{
     font-size: 25px;
 }
 /* nav end */
+/* banner */
+.banner{
+    background-image: url("../img/hero-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.bannercontiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 42px;
+}
+.bannerimg{
+    max-width: 100%;
+    max-height: 350px;
+    position: absolute;
+}
+.imgbanner{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.micphon{
+    position: absolute;
+    width: 33%;
+    height: auto;
+    top: 25%;
+    left: 34%;
+    object-fit: contain;
+    animation: swingMic 7.5s ease-in-out infinite;
+    transform-origin: bottom center;
+}
+@keyframes swingMic {
+     0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(30deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.new{
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    background-color: #00FF88;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.28);
+}
+ 
+.bannersection{
+    margin-top: 430px;
+}
+.bannertitle{
+    font-size: 3.75rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.bannerpara{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.buttonmargin{
+    margin-top: 25px;
+}
+.spotifybutton{
+    background: linear-gradient( 21deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    width: 185px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transform-origin: right center;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+.spotifybutton:hover{
+    transform: scaleX(1.25);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+.emailbutton{
+    background-color: transparent;
+    color: #00FF88;
+    border: 2px solid #00FF88;
+    border-radius: 50px;
+    height: 45px;
+    width: 150px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transform-origin: right center;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+.emailbutton:hover{
+    transform: scaleX(1.25);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+.emailicon{
+    color: #00FF88;
+    margin-right: 5px;
+}
+/* banner end */
+/* poadcast */
+.poadcast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.poadtitle{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.poaddes{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+/* poadcast end */
+
