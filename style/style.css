@@ -481,4 +481,115 @@ iframe{
     opacity: 0.5;
 }
 
+@media screen and (min-width : 576px) and (max-width: 992px) {
+    #subbtn, .navdiv{
+        display: none;
+    }
 
+    #burger{
+        display: block;
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+    .techgrid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 320px);
+        margin-bottom: 40px;
+
+    }
+    .techheadphone{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .techresource{
+        grid-column: span 2;
+    }
+    .featuredcard{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        background-size: cover;
+        min-height: 320px;
+        padding: 28px 17px;
+        margin-top: 60px;
+    }
+    .getsocial{
+        gap: 10px;
+        margin: 15px 0;
+    }
+    .social{
+        padding: 6px;
+        font-size: 12px;
+        gap: 6px; 
+    }
+    .social img{
+        width: 16px;
+        height: 16px;
+    }
+
+}
+@media screen and (max-width:576px) {
+    #subbtn, .navdiv{
+        display: none;
+    }
+
+    #burger{
+        display: block;
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+    .bannertitle{
+        font-size: 2.2rem;
+    }
+    .poadtitle, .techtitle{
+        font-size: 1.75rem;
+    }
+    .techgrid{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1, 290px);
+        margin-bottom: 40px;
+    }
+    .techheadphone{
+        grid-row:span 1;
+        padding: 70px 40px 70px 40px;
+    }
+    .featuredcard{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .techtitle{
+        margin: 32px 0px 40px 0;
+    }
+    .hostbio{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .hostalex{
+        justify-content: center;
+        text-align: center;
+    }
+    .hostsocial{
+        justify-content: center;
+    }
+    .hostname{
+        margin-top: 0px;
+    }
+    .hostdescription{
+        text-align: center;
+    }
+    .footer{
+        background-size: 170% auto;
+        min-height: 290px;
+        background-position: center 45%;
+        padding: 20px 10px;
+    }
+    .getsocial{
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .social{
+        width: 170px;
+        justify-content: center;
+    }
+
+}
